@@ -1,0 +1,28 @@
+{
+  "name": "wipfred",
+  "version": "0.1.0",
+  "description": "Manage your wip.chat todos inside alfred",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:apertureless/wipfred.git"
+  },
+  "keywords": [
+    "wip.chat",
+    "wip",
+    "todos",
+    "productivity",
+    "alfred",
+    "workflow"
+  ],
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": "Jakub Juszczak",
+  "license": "MIT",
+  "dependencies": {
+    "alfred-notifier": "^0.2.3",
+    "alfy": "^0.7.0"
+  }
+}
