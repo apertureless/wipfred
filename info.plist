@@ -38,6 +38,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>AB2720C0-A894-4F04-99B2-5F21EF3BF2A0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>E2F61DDC-9477-441F-91C5-A905B3C51C14</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -80,11 +90,50 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3817F257-AFFB-43E4-AEF9-69267015AEFF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>891DA1F7-65AC-4528-9B47-298483E5EEA7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3DAADF53-52E1-4C91-9A66-E8CE0FB32FD9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>DCAE1774-AD0F-46EB-991D-8615A9E44403</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4754E231-4452-4E29-AFE4-E2CF4A1436D0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3817F257-AFFB-43E4-AEF9-69267015AEFF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E0241F1-FEC7-482E-9289-A115BF7917A1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3DAADF53-52E1-4C91-9A66-E8CE0FB32FD9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -111,6 +160,16 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>17F63D7E-9461-407B-A7EC-C90E05106B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AB2720C0-A894-4F04-99B2-5F21EF3BF2A0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -175,6 +234,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>AB2720C0-A894-4F04-99B2-5F21EF3BF2A0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E0241F1-FEC7-482E-9289-A115BF7917A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C9E81A21-6DB4-4760-96EE-3C93C42DE22F</key>
 		<array>
 			<dict>
@@ -192,7 +264,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3DAADF53-52E1-4C91-9A66-E8CE0FB32FD9</string>
+				<string>4754E231-4452-4E29-AFE4-E2CF4A1436D0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -244,36 +316,13 @@
 	<key>createdby</key>
 	<string>Jakub Juszczak</string>
 	<key>description</key>
-	<string>Manage your wip.chat todos</string>
+	<string>Manage your wip.chat todos inside alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>WIPfred</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node done.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DCAE1774-AD0F-46EB-991D-8615A9E44403</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -306,7 +355,7 @@
 				<key>subtext</key>
 				<string>Find a todo and press enter to mark it as done</string>
 				<key>title</key>
-				<string>Complete todo</string>
+				<string>Find &amp; Complete Todo</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -322,31 +371,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node done.js "$1"</string>
+				<key>scriptargtype</key>
 				<integer>1</integer>
-				<key>fixedorder</key>
-				<true/>
-				<key>items</key>
-				<string>[{"imagefile":"70bcb4c2ae0efced38855125fa875e8fe59868f5.png","title":"Todo","arg":"todo","subtitle":"Create a new todo"},{"imagefile":"4062465b58039b1bfce1bbbce94f9a96afc56ff2.png","title":"Done","arg":"done","subtitle":"Mark a todo as done"},{"imagefile":"2aa4e8660563062c9406494ba3d5214fc34723e4.png","title":"API Key","arg":"key","subtitle":"Set your private wip.chat API key"}]</string>
-				<key>keyword</key>
-				<string>vwip</string>
-				<key>runningsubtext</key>
+				<key>scriptfile</key>
 				<string></string>
-				<key>subtext</key>
-				<string>woot</string>
-				<key>title</key>
-				<string>Select your command</string>
-				<key>withspace</key>
-				<true/>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>17F63D7E-9461-407B-A7EC-C90E05106B03</string>
+			<string>DCAE1774-AD0F-46EB-991D-8615A9E44403</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -372,6 +415,35 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"imagefile":"7fd3c3d2595569dd606062969ac6875fffb3d3c4.png","title":"Find","arg":"find","subtitle":"Find a todo in and mark it as done"},{"imagefile":"70bcb4c2ae0efced38855125fa875e8fe59868f5.png","title":"Todo","arg":"todo","subtitle":"Create a new todo"},{"imagefile":"4062465b58039b1bfce1bbbce94f9a96afc56ff2.png","title":"Done","arg":"done","subtitle":"Create &amp; mark a todo as done"},{"imagefile":"02202e869ecd24774f7a1d5678b07c39fe8dc2b2.png","title":"Ask","arg":"ask","subtitle":"Ask a question on wip.chat"},{"imagefile":"2aa4e8660563062c9406494ba3d5214fc34723e4.png","title":"API Key","arg":"key","subtitle":"Set your private wip.chat API key"}]</string>
+				<key>keyword</key>
+				<string>vwip</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>woot</string>
+				<key>title</key>
+				<string>Select your command</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>17F63D7E-9461-407B-A7EC-C90E05106B03</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string>{query}</string>
 				<key>matchcasesensitive</key>
@@ -379,12 +451,29 @@
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>done</string>
+				<string>find</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>E2F61DDC-9477-441F-91C5-A905B3C51C14</string>
+			<string>AB2720C0-A894-4F04-99B2-5F21EF3BF2A0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>find</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>5E0241F1-FEC7-482E-9289-A115BF7917A1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -404,6 +493,67 @@
 			<string>CAFD6255-03F4-44FF-9088-E39B773C6E08</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>subtext</key>
+				<string>add your todo name and #product</string>
+				<key>text</key>
+				<string>Create and mark todo as done: {query}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4754E231-4452-4E29-AFE4-E2CF4A1436D0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>done</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>E2F61DDC-9477-441F-91C5-A905B3C51C14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node create-done.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3817F257-AFFB-43E4-AEF9-69267015AEFF</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -442,25 +592,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>16D9168B-2993-4045-8BA6-52CA93062839</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>todo</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>98EEF38B-F304-4529-AAC0-B34B3211E9D2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -511,6 +642,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>todo</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>98EEF38B-F304-4529-AAC0-B34B3211E9D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -522,46 +672,6 @@
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>A83692E0-B10E-4142-A79A-35F3B461F208</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>Get your API Key on wip.chat/api and paste it here and press enter.</string>
-				<key>text</key>
-				<string>Set API key {query}</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>31421D01-FA24-47DB-A4B7-B784BB3C1991</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Your API key has been set.</string>
-				<key>title</key>
-				<string>Success</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>9A3CD2BD-B9A1-4417-B261-AB9820B88DF8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -591,19 +701,40 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>key</string>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Your API key has been set.</string>
+				<key>title</key>
+				<string>Success</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>6089084F-A531-4E28-B760-08A57A8974A3</string>
+			<string>9A3CD2BD-B9A1-4417-B261-AB9820B88DF8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Get your API Key on wip.chat/api and paste it here and press enter.</string>
+				<key>text</key>
+				<string>Set API key {query}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>31421D01-FA24-47DB-A4B7-B784BB3C1991</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -621,6 +752,25 @@
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>CFFE1037-4231-4FA3-BC28-A22091E0D073</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>key</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>6089084F-A531-4E28-B760-08A57A8974A3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -650,9 +800,9 @@
 		<key>17F63D7E-9461-407B-A7EC-C90E05106B03</key>
 		<dict>
 			<key>xpos</key>
-			<integer>230</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>140</integer>
 		</dict>
 		<key>1D6EADF5-6BF6-4EC0-B8B6-AAB00EF7FE16</key>
 		<dict>
@@ -672,6 +822,15 @@
 			<key>ypos</key>
 			<integer>580</integer>
 		</dict>
+		<key>3817F257-AFFB-43E4-AEF9-69267015AEFF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<integer>960</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
 		<key>3DAADF53-52E1-4C91-9A66-E8CE0FB32FD9</key>
 		<dict>
 			<key>colorindex</key>
@@ -682,7 +841,23 @@ Makes POST request to GraphQL API. And filters results.</string>
 			<key>xpos</key>
 			<integer>720</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>100</integer>
+		</dict>
+		<key>4754E231-4452-4E29-AFE4-E2CF4A1436D0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>5E0241F1-FEC7-482E-9289-A115BF7917A1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>610</integer>
+			<key>ypos</key>
+			<integer>170</integer>
 		</dict>
 		<key>6089084F-A531-4E28-B760-08A57A8974A3</key>
 		<dict>
@@ -709,7 +884,7 @@ Makes POST request to GraphQL API. And filters results.</string>
 			<key>xpos</key>
 			<integer>1160</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>130</integer>
 		</dict>
 		<key>98EEF38B-F304-4529-AAC0-B34B3211E9D2</key>
 		<dict>
@@ -718,7 +893,7 @@ Makes POST request to GraphQL API. And filters results.</string>
 			<key>note</key>
 			<string>todo</string>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>530</integer>
 			<key>ypos</key>
 			<integer>450</integer>
 		</dict>
@@ -738,6 +913,17 @@ Makes POST request to GraphQL API. And filters results.</string>
 			<key>ypos</key>
 			<integer>460</integer>
 		</dict>
+		<key>AB2720C0-A894-4F04-99B2-5F21EF3BF2A0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>find</string>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
 		<key>C9E81A21-6DB4-4760-96EE-3C93C42DE22F</key>
 		<dict>
 			<key>colorindex</key>
@@ -750,9 +936,9 @@ Makes POST request to GraphQL API. And filters results.</string>
 		<key>CAFD6255-03F4-44FF-9088-E39B773C6E08</key>
 		<dict>
 			<key>xpos</key>
-			<integer>630</integer>
+			<integer>610</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>290</integer>
 		</dict>
 		<key>CFFE1037-4231-4FA3-BC28-A22091E0D073</key>
 		<dict>
@@ -770,21 +956,23 @@ Makes POST request to GraphQL API. And filters results.</string>
 			<key>xpos</key>
 			<integer>960</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>130</integer>
 		</dict>
 		<key>E2F61DDC-9477-441F-91C5-A905B3C51C14</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>5</integer>
+			<integer>3</integer>
 			<key>note</key>
 			<string>done</string>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>290</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.1.1</string>
 	<key>webaddress</key>
-	<string>wipfred.xyz</string>
+	<string>https://github.com/apertureless/wipfred#readme</string>
 </dict>
 </plist>
