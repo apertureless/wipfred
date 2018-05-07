@@ -41,7 +41,7 @@ In order to work properly you need to set your wip.chat private API key.
 
 You can either type in `wip` and press <kbd>Enter</kbd> to see a list of available commands and select from one of them. Or you can use the command directly. However if you enter for exampel `wip done` you will be inside the `done` workflow. You have to press <kbd>ESC</kbd> to get out of it.
 
-Right now directly creating or modifing todos is not possible. For example:
+Right now directly creating or modifing todos with only one command is not possible. For example:
 
 ```
 wip todo need to add this feature soon #wipfred
@@ -50,11 +50,19 @@ wip todo need to add this feature soon #wipfred
 ### wip key
 Sets your private wip.chat API key.
 
-### wip done
-Type in `wip done` and press <kbd>Enter</kbd>. Then you can type in your todo and wipfred will filter all your wip.chat todos. After you select one and press <kbd>Enter</kbd> again, it will be marked as done.
+### wip find
+Type in `wip find` and press <kbd>Enter</kbd>. Then you can type in your todo and wipfred will filter all your pending wip.chat todos. After you select one and press <kbd>Enter</kbd> again, it will be marked as done.
 
 ### wip todo
 Type in `wip todo` and press <kbd>Enter</kbd>. Then you can type in your todo and if you want your product and confirm with <kbd>Enter</kbd>.
+
+**Example:**
+```
+fix a critical bug #productname
+```
+
+### wip done
+Type in `wip done` and press <kbd>Enter</kbd>. Then you can type in your todo and if you want your product and confirm with <kbd>Enter</kbd>. It will create a new todo and mark it as done.
 
 **Example:**
 ```

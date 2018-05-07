@@ -422,7 +422,7 @@
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"imagefile":"7fd3c3d2595569dd606062969ac6875fffb3d3c4.png","title":"Find","arg":"find","subtitle":"Find a todo in and mark it as done"},{"imagefile":"70bcb4c2ae0efced38855125fa875e8fe59868f5.png","title":"Todo","arg":"todo","subtitle":"Create a new todo"},{"imagefile":"4062465b58039b1bfce1bbbce94f9a96afc56ff2.png","title":"Done","arg":"done","subtitle":"Create &amp; mark a todo as done"},{"imagefile":"02202e869ecd24774f7a1d5678b07c39fe8dc2b2.png","title":"Ask","arg":"ask","subtitle":"Ask a question on wip.chat"},{"imagefile":"2aa4e8660563062c9406494ba3d5214fc34723e4.png","title":"API Key","arg":"key","subtitle":"Set your private wip.chat API key"}]</string>
+				<string>[{"imagefile":"7fd3c3d2595569dd606062969ac6875fffb3d3c4.png","title":"Find","arg":"find","subtitle":"Find a todo in and mark it as done"},{"imagefile":"70bcb4c2ae0efced38855125fa875e8fe59868f5.png","title":"Todo","arg":"todo","subtitle":"Create a new todo"},{"imagefile":"4062465b58039b1bfce1bbbce94f9a96afc56ff2.png","title":"Done","arg":"done","subtitle":"Create &amp; mark a todo as done"},{"imagefile":"2aa4e8660563062c9406494ba3d5214fc34723e4.png","title":"API Key","arg":"key","subtitle":"Set your private wip.chat API key"}]</string>
 				<key>keyword</key>
 				<string>vwip</string>
 				<key>runningsubtext</key>
