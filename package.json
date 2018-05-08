@@ -1,6 +1,6 @@
 {
   "name": "wipfred",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage your wip.chat todos inside alfred",
   "main": "index.js",
   "repository": {

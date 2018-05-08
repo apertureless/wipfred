@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/apertureless/wipfred/compare/v1.0.0...v1.0.1) (2018-05-08)
+
+
+### Bug Fixes
+
+* **find:** Add max limit of 100 to overwrite default limit of 20 todos ([89f2b65](https://github.com/apertureless/wipfred/commit/89f2b65))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/apertureless/wipfred/compare/v0.1.1...v1.0.0) (2018-05-07)
 
