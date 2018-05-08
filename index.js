@@ -9,7 +9,7 @@ alfredNotifier()
 
 const query = `query {
   viewer {
-    todos (completed: false) {
+    todos (completed: false, limit: 100) {
       body
       id
       completed_at
