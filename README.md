@@ -68,3 +68,11 @@ Type in `wip done` and press <kbd>Enter</kbd>. Then you can type in your todo an
 ```
 fix a critical bug #productname
 ```
+
+## ⌨ Keyboard Sortcuts
+You can access the workflows directly over keyboard shortcuts.
+Because it is nearly impossible to set sane default what work for everyone, the default Shortcuts are empty.
+
+You have to set them by your own. Press  <kbd>⌘</kbd>  <kbd>,</kbd> to open Alfred Preferences and select the `WIPfred` workflow.
+
+Then you can set the shortcuts for the `find`, `done` and `todo` command.
