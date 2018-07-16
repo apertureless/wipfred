@@ -76,3 +76,7 @@ Because it is nearly impossible to set sane default what work for everyone, the 
 You have to set them by your own. Press  <kbd>⌘</kbd>  <kbd>,</kbd> to open Alfred Preferences and select the `WIPfred` workflow.
 
 Then you can set the shortcuts for the `find`, `done` and `todo` command.
+
+## Support
+
+<a href="https://www.buymeacoffee.com/xcqjaytbl" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
