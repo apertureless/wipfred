@@ -23,6 +23,6 @@
   "license": "MIT",
   "dependencies": {
     "alfred-notifier": "^0.2.3",
-    "alfy": "^0.7.0"
+    "alfy": "^0.9.1"
   }
 }
