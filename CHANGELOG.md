@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.1.1](https://github.com/apertureless/wipfred/compare/v1.1.0...v1.1.1) (2020-02-14)
+
+
+### Bug Fixes
+
+* Update alfy dependency ([27e9d58](https://github.com/apertureless/wipfred/commit/27e9d58a7cd267685e1e18ec2e6b77653d3ffdb3))
 
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/apertureless/wipfred/compare/v1.0.1...v1.1.0) (2018-05-10)
