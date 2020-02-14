@@ -9,7 +9,7 @@
 
 ## 🔧 Installation
 
-`WIPfred` requires [Alfred](https://www.alfredapp.com/) + [Powerpack](https://www.alfredapp.com/powerpack/)
+`WIPfred` requires [Alfred](https://www.alfredapp.com/) + [Powerpack](https://www.alfredapp.com/powerpack/) (Supports Alfred 4)
 
 To install it simply run
 
